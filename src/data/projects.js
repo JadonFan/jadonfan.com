@@ -10,7 +10,7 @@ export const projects = [
     ].join(' '),
     labels: ['React', 'Redux', 'Apollo Client', 'MDC', 'Jest', 'Enzyme'],
     repoUrl: 'https://github.com/Sapphire-Labs/factibly',
-    appUrl: 'www.factibly.com',
+    appUrl: 'https://www.factibly.com',
   },
   {
     title: 'Budgetter',

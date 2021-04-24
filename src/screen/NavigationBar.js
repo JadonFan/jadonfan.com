@@ -27,6 +27,12 @@ const NavigationBar = () => {
           >
             <Icon name='linkedin' size='large' />
           </Menu.Item>
+          <Menu.Item
+            icon
+            href='mailto:jdsare@gmail.com'
+          >
+            <Icon name='mail' size='large' />
+          </Menu.Item>
         </Menu.Menu>
       </Container>
     </Menu>
