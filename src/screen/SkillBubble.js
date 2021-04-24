@@ -1,16 +1,14 @@
-import { SkillBubbleWrapper, SkillBubbleContent } from "../component/SkillBubble";
+import {
+  SkillBubbleWrapper,
+  SkillBubbleContent,
+} from '../component/SkillBubble';
 
-const SkillBubble = ({
-  backgroundColor,
-  skill,
-}) => {
+const SkillBubble = ({ backgroundColor, skill }) => {
   return (
     <SkillBubbleWrapper style={{ backgroundColor }}>
-      <SkillBubbleContent>
-        {skill}
-      </SkillBubbleContent>
+      <SkillBubbleContent>{skill}</SkillBubbleContent>
     </SkillBubbleWrapper>
   );
-}
+};
 
 export default SkillBubble;

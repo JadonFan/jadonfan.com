@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
-export const BiographyParagraph = styled.p`
+export const LargerParagraph = styled.p`
+  font-size: 16px;
+`;
+
+export const Title = styled.span`
   font-size: 18px;
 `;
 

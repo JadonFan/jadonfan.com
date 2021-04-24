@@ -1,4 +1,4 @@
-import { Container, Menu, Icon } from 'semantic-ui-react'
+import { Container, Menu, Icon } from 'semantic-ui-react';
 
 const NavigationBar = () => {
   return (
@@ -15,22 +15,22 @@ const NavigationBar = () => {
             icon
             href='https://github.com/JadonFan'
             target='_blank'
-            rel="noopener noreferrer"
+            rel='noopener noreferrer'
           >
-            <Icon name='github' size='large'/>
+            <Icon name='github' size='large' />
           </Menu.Item>
           <Menu.Item
             icon
             href='https://www.linkedin.com/in/jadon-fan/'
             target='_blank'
-            rel="noopener noreferrer"
+            rel='noopener noreferrer'
           >
-            <Icon name='linkedin' size='large'/>
+            <Icon name='linkedin' size='large' />
           </Menu.Item>
         </Menu.Menu>
       </Container>
     </Menu>
   );
-}
+};
 
 export default NavigationBar;

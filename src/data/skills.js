@@ -1,5 +1,5 @@
 export const skills = {
-  'web': [
+  web: [
     'JavaScript',
     'TypeScript',
     'React',
@@ -10,9 +10,9 @@ export const skills = {
     'DOM Purifier',
     'MDC',
     'Semantic UI',
-    'Chart.js'
+    'Chart.js',
   ],
-  'android': [
+  android: [
     'Kotlin',
     'Java',
     'Android SDK',
@@ -36,7 +36,7 @@ export const skills = {
     'Mockito',
     'Espresso',
   ],
-  'server': [
+  server: [
     'Python',
     'Ruby',
     'Java',
@@ -50,12 +50,13 @@ export const skills = {
     'PostgreSQL',
     'MySQL',
     'MongoDB',
+    'Cloud Firestore',
     'Graphene',
     'Relay',
     'Hibernate',
     'JDBC',
   ],
-  'other': [
+  other: [
     'Bash',
     'C',
     'C++',
@@ -71,5 +72,5 @@ export const skills = {
     'Heroku',
     'Swing',
     'pygame',
-  ]
-}
+  ],
+};
