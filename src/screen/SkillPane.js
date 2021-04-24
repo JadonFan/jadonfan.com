@@ -30,8 +30,9 @@ const SkillPane = () => {
       <Header as='h2'>Skills</Header>
 
       <SubtitleParagraph>
-        In order to navigate through the bubble layout panel, click on it to focus and then either
-        scroll through the panel or press the <kbd>←</kbd> and <kbd>→</kbd> keys. 
+        In order to navigate through the bubble layout panel, click on it
+        to focus and then either scroll through the panel or press the arrow
+        (<kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd>) keys.
       </SubtitleParagraph>
 
       <Menu attached='top' tabular>
