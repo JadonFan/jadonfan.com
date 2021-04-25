@@ -9,10 +9,11 @@ const NavigationBar = () => {
         <Menu.Item href='#skills'>Skills</Menu.Item>
         <Menu.Item href='#experience'>Work Experience</Menu.Item>
         <Menu.Item href='#projects'>Personal Projects</Menu.Item>
+        <Menu.Item href='#academics'>Academics</Menu.Item>
 
         <Menu.Menu position='right' icon>
           <Menu.Item
-            icon
+            icon='true'
             href='https://github.com/JadonFan'
             target='_blank'
             rel='noopener noreferrer'
@@ -20,17 +21,14 @@ const NavigationBar = () => {
             <Icon name='github' size='large' />
           </Menu.Item>
           <Menu.Item
-            icon
+            icon='true'
             href='https://www.linkedin.com/in/jadon-fan/'
             target='_blank'
             rel='noopener noreferrer'
           >
             <Icon name='linkedin' size='large' />
           </Menu.Item>
-          <Menu.Item
-            icon
-            href='mailto:jdsare@gmail.com'
-          >
+          <Menu.Item icon='true' href='mailto:jdsare@gmail.com'>
             <Icon name='mail' size='large' />
           </Menu.Item>
         </Menu.Menu>

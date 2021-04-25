@@ -1,4 +1,11 @@
 import styled from 'styled-components';
+import BubbleUI from 'react-bubble-ui';
+
+export const SkillBubbleUi = styled(BubbleUI)`
+  width: 100%;
+  height: 500px;
+  border-radius: 50px;
+`;
 
 export const SkillBubbleWrapper = styled.div`
   border-radius: 50%;

@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Header, Menu, Segment } from 'semantic-ui-react';
 import { PaneContainer } from '../component/PaneContainer';
 import { SubtitleParagraph } from '../component/Universal';
+import { SkillBubbleUi } from '../component/SkillBubble';
 import { skills } from '../data/skills';
-import BubbleUI from 'react-bubble-ui';
 import SkillBubble from './SkillBubble';
 import 'react-bubble-ui/dist/index.css';
 
@@ -58,17 +58,17 @@ const SkillPane = () => {
       </Menu>
 
       <Segment attached='bottom'>
-        <BubbleUI className='bubbleUI' options={bubbleLayoutOptions}>
+        <SkillBubbleUi className='bubbleUI' options={bubbleLayoutOptions}>
           {skills[activeItem].map((skill, index) => (
             <SkillBubble
-              key={`skill-bubble-${index}`}
+              key={`skill-bubble-${index}-${activeItem}`}
               skill={skill}
               backgroundColor={
                 bubbleColours[Math.floor(Math.random() * bubbleColours.length)]
               }
             />
           ))}
-        </BubbleUI>
+        </SkillBubbleUi>
       </Segment>
     </PaneContainer>
   );

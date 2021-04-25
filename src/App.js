@@ -1,16 +1,17 @@
-import './App.css';
+import { Divider } from 'semantic-ui-react';
+import { MainContainer } from './component/Universal';
 import ProjectPane from './screen/ProjectPane';
 import WorkExperiencePane from './screen/WorkExperiencePane';
 import BiographyPane from './screen/BiographyPane';
-import { Container, Divider } from 'semantic-ui-react';
 import SkillPane from './screen/SkillPane';
 import NavigationBar from './screen/NavigationBar';
+import AcademicPane from './screen/AcademicPane';
 
 function App() {
   return (
     <div>
       <NavigationBar />
-      <Container className='main-container'>
+      <MainContainer>
         <BiographyPane />
         <Divider />
         <SkillPane />
@@ -18,7 +19,9 @@ function App() {
         <WorkExperiencePane />
         <Divider />
         <ProjectPane />
-      </Container>
+        <Divider />
+        <AcademicPane />
+      </MainContainer>
     </div>
   );
 }

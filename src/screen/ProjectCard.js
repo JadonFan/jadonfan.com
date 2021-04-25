@@ -1,6 +1,15 @@
-import { Card, Label, Button, Icon } from 'semantic-ui-react';
+import { Card, Button, Icon } from 'semantic-ui-react';
+import { CardButtonGroup, CardLabel } from '../component/Card';
 
-const ProjectCard = ({ title, meta, description, labels, repoUrl, appUrl }) => {
+const ProjectCard = ({
+  key,
+  title,
+  meta,
+  description,
+  labels,
+  repoUrl,
+  appUrl,
+}) => {
   return (
     <Card>
       <Card.Content>
@@ -9,10 +18,14 @@ const ProjectCard = ({ title, meta, description, labels, repoUrl, appUrl }) => {
         <Card.Description>{description ?? 'TODO'}</Card.Description>
       </Card.Content>
       <Card.Content extra>
-        {labels.map((tech) => (
-          <Label content={tech} style={{ marginTop: 3, marginBottom: 3 }} />
+        {labels.map((tech, index) => (
+          <CardLabel
+            key={`project-card-label-${index}-${key}`}
+            content={tech}
+            style={{ marginTop: 4, marginBottom: 4 }}
+          />
         ))}
-        <div style={{ paddingTop: 10, paddingBottom: 10 }}>
+        <CardButtonGroup>
           <Button.Group>
             <Button
               color='blue'
@@ -37,7 +50,7 @@ const ProjectCard = ({ title, meta, description, labels, repoUrl, appUrl }) => {
               </Button>
             )}
           </Button.Group>
-        </div>
+        </CardButtonGroup>
       </Card.Content>
     </Card>
   );

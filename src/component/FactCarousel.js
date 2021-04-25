@@ -1,5 +1,6 @@
 import { Button } from 'semantic-ui-react';
 import styled from 'styled-components';
+import { capitalize } from '../util/StringUtil';
 
 export const CarouselNavigation = styled.div`
   display: flex;
@@ -14,8 +15,7 @@ export const CarouselNavigation = styled.div`
 `;
 
 export const CarouselButton = styled(Button)`
-  margin${(props) =>
-    props.floated.charAt(0).toUpperCase() + props.floated.slice(1)}: 0;
+  margin${(props) => capitalize(props.floated)}: 0;
 `;
 
 export const CarouselBubbles = styled.span``;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Icon, Message, Segment } from 'semantic-ui-react';
+import { Header, Icon, Message, Progress, Segment } from 'semantic-ui-react';
 import {
   CarouselBubble,
   CarouselBubbles,
@@ -17,27 +17,36 @@ class FactCarousel extends Component {
     this.handlePreviousSlide = this.handlePreviousSlide.bind(this);
     this.handleNextSlide = this.handleNextSlide.bind(this);
     this.handleAutoTransition = this.handleAutoTransition.bind(this);
-    this.intervalId = undefined;
+    this.intervalId = null;
     this.state = {
-      funFactNum: 0,
+      factIndex: 0,
       autoNextFact: false,
+      slideTime: 0,
     };
   }
 
   handlePreviousSlide() {
-    var prevNum = this.state.funFactNum - 1;
+    var prevNum = this.state.factIndex - 1;
     if (prevNum < 0) {
       prevNum = facts.length - 1;
     }
-    this.setState({ funFactNum: prevNum });
+    this.setState({ factIndex: prevNum });
+    this.resetAutoTransitionProgress();
   }
 
   handleNextSlide() {
-    var nextNum = this.state.funFactNum + 1;
+    var nextNum = this.state.factIndex + 1;
     if (nextNum >= facts.length) {
       nextNum = 0;
     }
-    this.setState({ funFactNum: nextNum });
+    this.setState({ factIndex: nextNum });
+    this.resetAutoTransitionProgress();
+  }
+
+  resetAutoTransitionProgress() {
+    if (this.state.autoNextFact) {
+      this.setState({ slideTime: 0 });
+    }
   }
 
   /**
@@ -46,7 +55,7 @@ class FactCarousel extends Component {
    */
   createFactTrackDot(k) {
     var colorNotifyCurrent =
-      this.state.funFactNum === k
+      this.state.factIndex === k
         ? { backgroundColor: 'black' }
         : { backgroundColor: '#A9A9A9' };
     return <CarouselBubble key={k} style={colorNotifyCurrent} />;
@@ -56,11 +65,14 @@ class FactCarousel extends Component {
     this.setState({ autoNextFact: !this.state.autoNextFact });
     if (this.state.autoNextFact) {
       clearInterval(this.intervalId);
+      this.setState({ slideTime: 0 });
     } else {
-      this.intervalId = setInterval(
-        () => this.handleNextSlide(),
-        FactCarousel.CAROUSEL_AUTO_MOVE_TIME
-      );
+      this.intervalId = setInterval(() => {
+        this.setState({ slideTime: this.state.slideTime + 1_000 });
+        if (this.state.slideTime >= FactCarousel.CAROUSEL_AUTO_MOVE_TIME) {
+          this.handleNextSlide();
+        }
+      }, 1_000);
     }
   }
 
@@ -77,13 +89,23 @@ class FactCarousel extends Component {
           />
         </Header>
         <Segment attached raised>
-          <LargerParagraph>{facts[this.state.funFactNum]}</LargerParagraph>
+          <LargerParagraph>{facts[this.state.factIndex]}</LargerParagraph>
           {this.state.autoNextFact && (
-            <Message info>
-              <Icon name='info' />
-              This carousel automatically switches to the next slide every
-              {' ' + FactCarousel.CAROUSEL_AUTO_MOVE_TIME / 1000} seconds
-            </Message>
+            <>
+              <Message info>
+                <Icon name='info' />
+                This carousel automatically switches to the next slide every
+                {' ' + FactCarousel.CAROUSEL_AUTO_MOVE_TIME / 1_000} seconds
+              </Message>
+              <Progress
+                attached='bottom'
+                percent={Math.ceil(
+                  (this.state.slideTime /
+                    FactCarousel.CAROUSEL_AUTO_MOVE_TIME) *
+                    100
+                )}
+              />
+            </>
           )}
         </Segment>
         <Segment attached='bottom'>

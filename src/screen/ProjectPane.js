@@ -8,8 +8,8 @@ const ProjectPane = () => {
     <PaneContainer id='projects'>
       <Header as='h2'>Personal Projects</Header>
       <Card.Group>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-card-${index}`} {...project} />
+        {projects.map((project) => (
+          <ProjectCard {...project} key={`project-card-${project.key}`} />
         ))}
       </Card.Group>
     </PaneContainer>

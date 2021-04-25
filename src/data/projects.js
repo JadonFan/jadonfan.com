@@ -1,5 +1,6 @@
 export const projects = [
   {
+    key: 'factibly',
     title: 'Factibly',
     meta: 'Crowd-Sourced Fact Checker',
     description: [
@@ -8,11 +9,24 @@ export const projects = [
       'aspects of web development, such as accessibility (WCAG 2.1) and search engine',
       'optimizations (SEO).',
     ].join(' '),
-    labels: ['React', 'Redux', 'Apollo Client', 'MDC', 'Jest', 'Enzyme'],
+    labels: [
+      'React',
+      'Redux',
+      'Apollo Client',
+      'MDC',
+      'Jest',
+      'Enzyme',
+      'Python',
+      'Django',
+      'Graphene',
+      'Relay',
+      'PostgreSQL',
+    ],
     repoUrl: 'https://github.com/Sapphire-Labs/factibly',
     appUrl: 'https://www.factibly.com',
   },
   {
+    key: 'budgetter',
     title: 'Budgetter',
     meta: 'Android Budget Tracker',
     description: [
@@ -27,6 +41,38 @@ export const projects = [
     repoUrl: 'https://github.com/JadonFan/Budgeting',
   },
   {
+    key: 'bestbooks',
+    title: 'BestBooks',
+    meta: 'NYTimes Bestsellers Aggregator',
+    description: [
+      'For all of you bookworms out there, this website gives you a neat feed with the',
+      'details of the latest NYTimes bestsellers in each category. This simple yet',
+      'useful website was my first and rather successful attempt at utilizing the Ruby',
+      'on Rails framework on the back-end.',
+    ].join(' '),
+    labels: ['React', 'Redux', 'Bootstrap', 'Ruby', 'Ruby on Rails'],
+    repoUrl: 'https://github.com/JadonFan/NYTimes_Books',
+  },
+  {
+    title: 'EduPlan',
+    meta: 'Student Life Planner',
+    description: [
+      'This desktop Java app is designed by students, for students, to plan your university',
+      'life, such as your courses for the next academic term and your daily schedule.',
+      "Your university life may get busy but it shouldn't need to be difficult to manage.",
+    ].join(' '),
+    labels: [
+      'JavaFX',
+      'JDBC',
+      'Spring Boot',
+      'MySQL',
+      'Amazon RDS',
+      'Gmail API (OAuth2)',
+    ],
+    repoUrl: 'https://github.com/JadonFan/Planner',
+  },
+  {
+    key: 'madlad',
     title: 'MadLad',
     meta: 'First-Person Desktop Shooter',
     description: [
@@ -37,8 +83,9 @@ export const projects = [
     repoUrl: 'https://github.com/JadonFan/MazeShooter',
   },
   {
+    key: 'firstgame',
     title: 'First Game',
-    meta: 'Family-Friendly Casual Games',
+    meta: 'Family-Friendly Casual Mobile Games',
     description: [
       'This Android app may seem basic, but it helped me a lot with getting',
       'started in Android development.',
