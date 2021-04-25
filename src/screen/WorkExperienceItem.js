@@ -40,7 +40,7 @@ const WorkExperienceItem = ({
                       {`${evaluationRating} Performance`}
                     </List.Header>
                     <List.Description>
-                      based on the UWaterloo's co-op{' '}
+                      based on UWaterloo's co-op{' '}
                       <a
                         href='https://uwaterloo.ca/co-operative-education/your-work-term/work-term-evaluations'
                         target='_blank'
