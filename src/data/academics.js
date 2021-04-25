@@ -28,6 +28,16 @@ export const academicTerms = [
     description: null,
     courses: [
       {
+        title: 'ECE350 Real-time Operating Systems',
+        description: `
+          This course covered the fundamentals of operating systems, particularly real-time as you can guess from the
+          course title. There was a lot of content to take in, such as memory allocation and management, multi-threading
+          and multi-processing, caching and I/O, but no memorization was required as the assessments were open-book.
+          Each lab involved the creation of a particular aspect of an operating system written in the C language
+          that would run on the ARM-based Keil MCB1700 microprocessor.
+        `,
+      },
+      {
         title: 'ECE356 Database Systems',
         description: `
             This course covered the fundamentals of databases including ER modelling, SQL queries, relational algebra,
@@ -54,7 +64,32 @@ export const academicTerms = [
     term: '3A',
     title: 'Crossing Into Uncharted Territories',
     description: null,
-    courses: null,
+    courses: [
+      {
+        title: 'ECE306 Probability Theory and Statistics',
+        description: ``,
+      },
+      {
+        title: 'ECE327 Digital Systems Engineering',
+        description: ``,
+      },
+      {
+        title: 'ECE351 Compilers',
+        description: `
+          This course covered the fundamentals of compiler design and implementation. It started off with a recap
+          of finite automata and grammar from ECE208 (discrete mathematics and logic). Then, we learnt how to apply
+          those abstract knowledge to create and optimize various aspects of a compiler, including recursive descent
+          parsing, compile-time optimizations, register allocation and garbage collection. Through the labs, I slowly
+          but gradually applied my newfound knowledge of compilers to build a simple yet capable compiler in Java
+          to convert Java code to a subset of the VHDL language to, finally, Assembly. Oh, and I was one (1!)
+          percentage point away from achieving a perfect grade.
+        `,
+      },
+      {
+        title: 'ECE380 Analog Control Systems',
+        description: ``,
+      },
+    ],
   },
   {
     term: '2B',
@@ -69,7 +104,20 @@ export const academicTerms = [
       so the lab rooms in the Engineering buildings felt like a second home to me, especially on
       weekend afternoons!
     `,
-    courses: null,
+    courses: [
+      {
+        title: 'ECE208 Discrete Mathematics and Logic 2',
+        description: ``,
+      },
+      {
+        title: 'ECE224 Embedded Microprocessor Systems',
+        description: ``,
+      },
+      {
+        title: 'ECE252 Systems Programming and Concurrency',
+        description: ``,
+      },
+    ],
   },
   {
     term: '2A',
@@ -83,7 +131,20 @@ export const academicTerms = [
       after the midterm after promising myself to not leave the problem sets until final exam period.
       As a result, the final exams were able to save my grades.
     `,
-    courses: null,
+    courses: [
+      {
+        title: 'ECE205 Advanced Calculus I',
+        description: ``,
+      },
+      {
+        title: 'ECE222 Digital Computers',
+        description: ``,
+      },
+      {
+        title: 'ECE250 Algorithms and Data Structures',
+        description: ``,
+      },
+    ],
   },
   {
     term: '1B',

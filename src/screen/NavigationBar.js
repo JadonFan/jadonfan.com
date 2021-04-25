@@ -4,13 +4,7 @@ const NavigationBar = () => {
   return (
     <Menu fixed='top' size='massive' inverted>
       <Container>
-        <Menu.Item header> Jadon Fan </Menu.Item>
-        <Menu.Item href='#biography'>Biography</Menu.Item>
-        <Menu.Item href='#skills'>Skills</Menu.Item>
-        <Menu.Item href='#experience'>Work Experience</Menu.Item>
-        <Menu.Item href='#projects'>Personal Projects</Menu.Item>
-        <Menu.Item href='#academics'>Academics</Menu.Item>
-
+        <Menu.Item header>Jadon Fan</Menu.Item>
         <Menu.Menu position='right' icon>
           <Menu.Item
             icon='true'
