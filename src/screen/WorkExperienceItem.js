@@ -1,4 +1,4 @@
-import { Icon, Item, List, Label, Reveal } from 'semantic-ui-react';
+import { Item, List, Label, Reveal } from 'semantic-ui-react';
 import { AnimatableItemDescription } from '../component/Item';
 
 const WorkExperienceItem = ({
