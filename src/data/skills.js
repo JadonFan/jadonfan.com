@@ -46,6 +46,7 @@ export const skills = {
     'RSpec',
     'factory_bot',
     'Django',
+    'Tornado',
     'unittest',
     'PostgreSQL',
     'MySQL',

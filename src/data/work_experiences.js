@@ -21,7 +21,7 @@ export const workExperiences = [
         wiki and improvements to our custom Android linter
       `,
     ],
-    techs: ['Kotlin', 'Java', 'Python', 'MongoDB', 'Treasure Data'],
+    techs: ['Kotlin', 'Java', 'Python', 'Tornado', 'MongoDB', 'Treasure Data'],
   },
   {
     key: 'fundthrough',
