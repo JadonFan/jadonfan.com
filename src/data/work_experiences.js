@@ -10,10 +10,10 @@ export const workExperiences = [
     highlights: [
       `
         Implemented various features — such as checkout offer extensions for eligible users,
-        VAT information for UK users and product bundles — on the Wish app that would convince users
+        VAT information, and product bundles — on the Wish app that would convince users
         to complete their purchases quicker with more items in their cart
       `,
-      'Monitored the impact of my features through A/B experiments and Treasure Data logs',
+      'Monitored the impact of my features through A/B tests and Treasure Data logs',
       'Worked with Kotlin and Java on the front-end, and Python and MongoDB on the back-end',
       `
         Contributed on my own initiative to the success of other people on the team through extensive
