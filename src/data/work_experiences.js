@@ -67,13 +67,14 @@ export const workExperiences = [
     evaluationRating: 'Excellent',
     highlights: [
       `
-        Implemented features – including a media file downloader, background media playback
-        service, various media playback settings and in-app video and audio recorders – for an
-        Android (Java) app in an MVVM pattern
+        Implemented features – including a media file downloader for offline
+        playback, background playback service, various media settings, and
+        video and audio recording capabilities – for an Android (Java) app
+        in a MVVM pattern
       `,
       `
-        Worked extensively with various material design components in order to better standardize
-        the user interface across the app
+        Worked extensively with various Material Design components in order to
+        better standardize the user interface across the app
       `,
       'Implemented RPCs for the app using Java Servlets, JDBC and Amazon S3',
       'Increased app rating by 0.7 stars, decreased average render time by 6% and decreased crash frequency by 4%',

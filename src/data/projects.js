@@ -6,8 +6,8 @@ export const projects = [
     description: [
       'We used TypeScript and React on the front-end and Django on the back-end, with Apollo as',
       'the client for our custom GraphQL queries and mutations. We also explored other various',
-      'aspects of web development, such as accessibility (WCAG 2.1) and search engine',
-      'optimizations (SEO).',
+      'aspects of web development, such as internationalization, accessibility (WCAG 2.1) and',
+      'search engine optimizations (SEO).',
     ].join(' '),
     labels: [
       'React',
@@ -30,7 +30,7 @@ export const projects = [
     title: 'Budgetter',
     meta: 'Android Budget Tracker',
     description: [
-      'I developed a Material-themed Android app with modern Jetpack libaries,',
+      'I developed a Material-themed Android app with modern Jetpack libraries,',
       "dependency injection and Airbnb's Mavericks framework. With the app, you",
       'can keep track of your individual transactions either by manually filling out',
       'the details of each transaction or by using the custom barcode scanner.',

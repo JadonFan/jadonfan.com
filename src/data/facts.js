@@ -8,10 +8,7 @@ export const facts = [
     pretty aggressive player albeit a slow one.
     `,
   `
-    Surprisingly, I was good at drawing when I was a child. I won a few drawing contests, and 
-    most of my works were based on still life. Some contests were serious; others
-    were just for fun. The most notable contest that I entered was a Club Penguin (RIP that game)
-    event, which won me an exclusive Club Penguin plushie.
+    Coming soon...
     `,
   `
     Coming soon...
