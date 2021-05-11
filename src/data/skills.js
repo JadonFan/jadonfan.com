@@ -10,6 +10,9 @@ export const skills = {
     'Material-UI',
     'Semantic UI',
     'Chart.js',
+    'SCSS',
+    'JSS',
+    'Styled Components',
   ],
   android: [
     'Kotlin',
@@ -19,7 +22,7 @@ export const skills = {
     'Coroutines',
     'Jetpack Architecture Components',
     'Mavericks',
-    'Material Components',
+    'Material Design Components (MDC)',
     'Hilt',
     'Dagger',
     'Retrofit',
@@ -30,6 +33,7 @@ export const skills = {
     'JUnit',
     'Mockito',
     'Espresso',
+    'Android Lint',
   ],
   server: [
     'Python',

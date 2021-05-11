@@ -52,14 +52,14 @@ class FactCarousel extends Component {
 
   /**
    *
-   * @param {BigInt} k the index corresponding to the funFacts array
+   * @param {BigInt} idx the index corresponding to the funFacts array
    */
-  createFactTrackDot(k) {
+  createFactTrackDot(idx) {
     var colorNotifyCurrent =
-      this.state.factIndex === k
+      this.state.factIndex === idx
         ? { backgroundColor: 'black' }
         : { backgroundColor: '#A9A9A9' };
-    return <CarouselBubble key={k} style={colorNotifyCurrent} />;
+    return <CarouselBubble key={idx} style={colorNotifyCurrent} />;
   }
 
   handleAutoTransition() {
@@ -81,7 +81,7 @@ class FactCarousel extends Component {
     return (
       <>
         <Header as='h5' size='large' attached='top' block>
-          <Title>Facts</Title>
+          <Title>Quick Facts</Title>
           <CarouselButton
             floated='right'
             icon={this.state.autoNextFact ? 'pause' : 'play'}

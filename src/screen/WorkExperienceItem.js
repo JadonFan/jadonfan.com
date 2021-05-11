@@ -8,7 +8,7 @@ const WorkExperienceItem = ({
   companyName,
   location,
   dateRange,
-  evaluationRating,
+  performance,
   highlights,
   techs,
 }) => {
@@ -37,7 +37,7 @@ const WorkExperienceItem = ({
                   <List.Icon name='star' verticalAlign='middle' />
                   <List.Content>
                     <List.Header style={{ fontWeight: 'normal' }}>
-                      {`${evaluationRating} Performance`}
+                      {`${performance} Performance`}
                     </List.Header>
                     <List.Description>
                       based on UWaterloo's co-op{' '}

@@ -6,7 +6,7 @@ export const workExperiences = [
     companyName: 'Wish',
     location: 'San Francisco (Remote from Toronto)',
     dateRange: 'January 2021 – April 2021',
-    evaluationRating: 'Outstanding',
+    performance: 'Outstanding',
     highlights: [
       `
         Implemented various features — such as checkout offer extensions for eligible users,
@@ -30,7 +30,7 @@ export const workExperiences = [
     companyName: 'FundThrough',
     location: 'Toronto (Remote from Toronto)',
     dateRange: 'May 2020 – August 2020',
-    evaluationRating: 'Outstanding',
+    performance: 'Outstanding',
     highlights: [
       `
         Utilized React and Redux — and implemented the corresponding Jest/Enzyme tests — to enhance an online
@@ -65,7 +65,7 @@ export const workExperiences = [
     companyName: 'YuJa',
     location: 'Toronto',
     dateRange: 'September 2019 – December 2019',
-    evaluationRating: 'Excellent',
+    performance: 'Excellent',
     highlights: [
       `
         Implemented features – including a media file downloader for offline
@@ -75,11 +75,14 @@ export const workExperiences = [
       `,
       `
         Worked extensively with various Material Design components in order to
-        better standardize the user interface across the app
+        standardize the user interface across the app
       `,
       'Implemented RPCs for the app using Java Servlets, JDBC and Amazon S3',
-      'Increased app rating by 0.7 stars, decreased average render time by 6% and decreased crash frequency by 4%',
-      'Migrated many of the old or deprecated libraries to newer Jetpack libraries such as Room',
+      `
+        Increased app rating by 0.7 stars, decreased average render time by 6% and decreased
+        crash frequency by 4% based on metrics from the Firebase console
+      `,
+      'Migrated many of the old or deprecated libraries to newer libraries such as from SQLite to Room',
     ],
     techs: ['Java', 'PostgreSQL', 'AWS'],
   },
@@ -90,13 +93,13 @@ export const workExperiences = [
     companyName: 'TELUS Health',
     location: 'Cambridge ON',
     dateRange: 'January 2019 – April 2019',
-    evaluationRating: 'Excellent',
+    performance: 'Excellent',
     highlights: [
       'Wrote automated RMI and REST API tests in Java for a medical software',
       'Configured tests in JMeter and Jenkins with test data in PostgreSQL',
       'Increased test coverage by 40% and identified 35 performance issues',
       'Refactored major parts of the codebase in order to maintain structural consistency',
-      'Worked with the engineering teams to determine the source of some identified issues',
+      'Worked with the engineering team to determine the source of some identified issues',
     ],
     techs: ['Java', 'JMeter', 'Jenkins'],
   },

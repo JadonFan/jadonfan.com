@@ -6,7 +6,7 @@ import { projects } from '../data/projects';
 const ProjectPane = () => {
   return (
     <PaneContainer id='projects'>
-      <Header as='h2'>Personal Projects</Header>
+      <Header as='h2'>Projects</Header>
       <Card.Group>
         {projects.map((project) => (
           <ProjectCard {...project} key={`project-card-${project.key}`} />

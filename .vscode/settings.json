@@ -1,3 +1,11 @@
 {
-  "cSpell.words": ["fundthrough"]
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "prettier.requireConfig": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": ["fundthrough", "noopener", "noreferrer"]
 }
