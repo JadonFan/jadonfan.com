@@ -13,12 +13,12 @@ export const workExperiences = [
         VAT information, and product bundles — on the Wish app that would convince users
         to complete their purchases quicker with more items in their cart
       `,
-      'Monitored the impact of my features through A/B tests and Treasure Data logs',
+      'Monitored the impact of my features through A/B tests and through impression/click logging in Treasure Data',
       'Worked with Kotlin and Java on the front-end, and Python and MongoDB on the back-end',
       `
         Contributed on my own initiative to the success of other people on the team through extensive
-        code reviews, knowledge transfer sessions with a new hire, numerous contributions to the company-wide
-        wiki and improvements to our custom Android linter
+        code reviews, knowledge transfer sessions with a new hire, numerous contributions to the engineering
+        wiki, and improvements to our custom Android linter
       `,
     ],
     techs: ['Kotlin', 'Java', 'Python', 'Tornado', 'MongoDB', 'Treasure Data'],
@@ -33,8 +33,9 @@ export const workExperiences = [
     evaluationRating: 'Outstanding',
     highlights: [
       `
-        Enhanced, using React, Redux and SCSS, the user interface of an online invoice funding platform
-        along with the corresponding Jest/Enzyme tests
+        Utilized React and Redux — and implemented the corresponding Jest/Enzyme tests — to enhance an online
+        invoice funding platform so that it is more personalized for each user based on their needs and
+        financial history
       `,
       'Implemented various APIs and Rake tasks in Ruby on Rails along with the corresponding RSpec tests',
       `
