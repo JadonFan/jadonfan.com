@@ -1,4 +1,5 @@
-import { Header, Image } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
+import { BiographyImage } from '../component/BiographyPane';
 import { PaneContainer } from '../component/PaneContainer';
 import { LargerParagraph } from '../component/Universal';
 import FactCarousel from './FactCarousel';
@@ -7,12 +8,10 @@ const BiographyPane = () => {
   return (
     <PaneContainer id='biography'>
       <Header as='h2'>Welcome To My Website!</Header>
-      <Image
+      <BiographyImage
         src='images/jadon.png'
         size='medium'
-        wrapped
-        alt='Jadon'
-        style={{ float: 'left', marginRight: 20 }}
+        alt='Jadon Fan selfie'
       />
       <LargerParagraph>
         I am Jadon Fan. I study Computer Engineering at the University of
@@ -21,20 +20,6 @@ const BiographyPane = () => {
         co-op program, which means that I alternate between study terms and work
         terms every 4 months. I hope you enjoy exploring my website, which I am
         using to gain further experience in web development.
-      </LargerParagraph>
-      <LargerParagraph>
-        I chose Computer Engineering because I wanted to explore both hardware
-        and software. While it may sound cliché, I enjoy the flexibility of what
-        can be accomplished through programming. On one day, I might be writing
-        code for a software that will advance medical technologies or for a game
-        with gameplay mechanics and plots to my liking. On another day, I might
-        be programming an embedded microprocessor, like I did in ECE298, to
-        remotely adjust fan speeds by clapping your hands. On the other hand, I
-        am curious about how hardware is used to run software. Since I was first
-        introduced to programming back in high school, I have wondered exactly
-        how a series of words on a screen can instruct a computing device to do
-        something, and how a computing device is able to store and follow those
-        instructions.
       </LargerParagraph>
       <LargerParagraph>
         I would describe myself as a determined person who loves to employ his
@@ -55,7 +40,7 @@ const BiographyPane = () => {
         that same mistake in the future and will try to find why I made that
         mistake and how I can potentially avoid it.
       </LargerParagraph>
-
+      <div style={{ marginTop: 40 }} />
       <FactCarousel />
     </PaneContainer>
   );

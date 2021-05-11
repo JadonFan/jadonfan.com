@@ -1,4 +1,4 @@
-import { Button } from 'semantic-ui-react';
+import { Button, Segment } from 'semantic-ui-react';
 import styled from 'styled-components';
 import { capitalize } from '../util/StringUtil';
 
@@ -9,9 +9,13 @@ export const CarouselNavigation = styled.div`
   justify-content: space-between;
   width: 100%;
   & > * {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
   }
+`;
+
+export const CarouselBody = styled(Segment)`
+  min-height: 240px;
 `;
 
 export const CarouselButton = styled(Button)`
@@ -25,5 +29,5 @@ export const CarouselBubble = styled.div`
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 8px;
 `;

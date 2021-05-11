@@ -7,8 +7,8 @@ export const CardLabel = styled(Label)`
 `;
 
 export const CardButtonGroup = styled.div`
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 `;
 
 export const CardSpacedDescription = styled(CardDescription)`

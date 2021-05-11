@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Header, Icon, Message, Progress, Segment } from 'semantic-ui-react';
 import {
+  CarouselBody,
   CarouselBubble,
   CarouselBubbles,
   CarouselButton,
@@ -88,7 +89,7 @@ class FactCarousel extends Component {
             style={{ backgroundColor: 'transparent' }}
           />
         </Header>
-        <Segment attached raised>
+        <CarouselBody attached raised>
           <LargerParagraph>{facts[this.state.factIndex]}</LargerParagraph>
           {this.state.autoNextFact && (
             <>
@@ -107,7 +108,7 @@ class FactCarousel extends Component {
               />
             </>
           )}
-        </Segment>
+        </CarouselBody>
         <Segment attached='bottom'>
           <CarouselNavigation>
             <CarouselButton
