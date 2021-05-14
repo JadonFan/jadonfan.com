@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { Header, Icon, Message, Progress, Segment } from 'semantic-ui-react';
 import {
   CarouselBody,

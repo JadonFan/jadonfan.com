@@ -6,23 +6,27 @@ import BiographyPane from './screen/BiographyPane';
 import SkillPane from './screen/SkillPane';
 import NavigationBar from './screen/NavigationBar';
 import AcademicPane from './screen/AcademicPane';
+import ScrollButton from './screen/ScrollButton';
 
 function App() {
   return (
-    <div>
+    <>
       <NavigationBar />
-      <MainContainer>
-        <BiographyPane />
-        <Divider />
-        <SkillPane />
-        <Divider />
-        <WorkExperiencePane />
-        <Divider />
-        <ProjectPane />
-        <Divider />
-        <AcademicPane />
-      </MainContainer>
-    </div>
+      <main>
+        <MainContainer>
+          <BiographyPane />
+          <Divider />
+          <SkillPane />
+          <Divider />
+          <WorkExperiencePane />
+          <Divider />
+          <ProjectPane />
+          <Divider />
+          <AcademicPane />
+        </MainContainer>
+        <ScrollButton />
+      </main>
+    </>
   );
 }
 

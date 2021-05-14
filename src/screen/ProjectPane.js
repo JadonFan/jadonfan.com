@@ -9,7 +9,11 @@ const ProjectPane = () => {
       <Header as='h2'>Projects</Header>
       <Card.Group>
         {projects.map((project) => (
-          <ProjectCard {...project} key={`project-card-${project.key}`} />
+          <ProjectCard
+            {...project}
+            key={`project-card-${project.key}`}
+            cardName={`project-card-${project.key}`}
+          />
         ))}
       </Card.Group>
     </PaneContainer>

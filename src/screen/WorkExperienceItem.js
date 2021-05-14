@@ -2,7 +2,7 @@ import { Item, List, Label, Reveal } from 'semantic-ui-react';
 import { AnimatableItemDescription } from '../component/Item';
 
 const WorkExperienceItem = ({
-  key,
+  itemName,
   imgSrc,
   jobTitle,
   companyName,
@@ -23,7 +23,7 @@ const WorkExperienceItem = ({
             <Reveal.Content visible style={{ width: '100%' }}>
               <List size='large' bulleted>
                 {highlights.map((highlight, index) => (
-                  <List.Item key={`work-highlight-${index}-${key}`}>
+                  <List.Item key={`work-highlight-${index}-${itemName}`}>
                     {highlight}
                   </List.Item>
                 ))}
@@ -57,7 +57,7 @@ const WorkExperienceItem = ({
         </AnimatableItemDescription>
         <Item.Extra>
           {techs.map((tech, index) => (
-            <Label key={`work-tech-${index}-${key}`} content={tech} />
+            <Label key={`work-tech-${index}-${itemName}`} content={tech} />
           ))}
         </Item.Extra>
       </Item.Content>

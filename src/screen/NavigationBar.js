@@ -2,10 +2,10 @@ import { Container, Menu, Icon } from 'semantic-ui-react';
 
 const NavigationBar = () => {
   return (
-    <Menu fixed='top' size='massive' inverted>
+    <Menu fixed='top' size='massive' inverted as='nav'>
       <Container>
         <Menu.Item header>Jadon Fan</Menu.Item>
-        <Menu.Menu position='right' icon>
+        <Menu.Menu position='right'>
           <Menu.Item
             icon='true'
             href='https://github.com/JadonFan'

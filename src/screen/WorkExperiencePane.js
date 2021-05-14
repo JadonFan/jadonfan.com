@@ -12,6 +12,7 @@ const WorkExperiencePane = () => {
           <WorkExperienceItem
             {...experience}
             key={`work-experience-item-${experience.key}`}
+            itemName={`work-experience-item-${experience.key}`}
           />
         ))}
       </Item.Group>

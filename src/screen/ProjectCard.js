@@ -2,7 +2,7 @@ import { Card, Button, Icon } from 'semantic-ui-react';
 import { CardButtonGroup, CardLabel } from '../component/Card';
 
 const ProjectCard = ({
-  key,
+  cardName,
   title,
   meta,
   description,
@@ -20,7 +20,7 @@ const ProjectCard = ({
       <Card.Content extra>
         {labels.map((tech, index) => (
           <CardLabel
-            key={`project-card-label-${index}-${key}`}
+            key={`project-card-label-${index}-${cardName}`}
             content={tech}
             style={{ marginTop: 4, marginBottom: 4 }}
           />

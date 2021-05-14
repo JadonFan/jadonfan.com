@@ -11,6 +11,7 @@ const AcademicPane = () => {
         <Statistic.Group size='small' inverted>
           {academicStatistics.map((stat) => (
             <Popup
+              key={`academic-popup-${stat.key}`}
               trigger={
                 <Statistic key={stat.key}>
                   <Statistic.Value>{stat.value}</Statistic.Value>

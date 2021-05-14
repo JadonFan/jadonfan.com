@@ -27,11 +27,11 @@ const BiographyPane = () => {
         effort as I can (eating and sleeping are still important!), and use
         whatever relevant tools I have at my disposal, to find a solution to
         that problem. My mantra is that,
-        <quote>
+        <q>
           {' '}
           while it is important to work hard, working smart is more efficient
           and effective
-        </quote>
+        </q>
         . Meanwhile, my friends would probably describe me as a helpful person
         whenever it is help with academic work or just life in general. Helping
         people not only enables me to put my knowledge and skills to good use,
