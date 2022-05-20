@@ -9,19 +9,58 @@ export const academicStatistics = [
   {
     key: 'internships',
     label: 'Internships',
-    value: '5',
+    value: '6',
     description: `Number of internships completed as part of the UWaterloo co-op program, with each
       internship spanning a period of 4 months`,
   },
   {
     key: 'tdhlCount',
     label: 'Honours',
-    value: '2',
+    value: '3',
     description: "Number of times accepted onto the Team Dean's Honours List",
   },
 ];
 
 export const academicTerms = [
+  {
+    term: '4B',
+    title: 'At the finish line',
+    description: null,
+    courses: [
+      {
+        title: 'ECE457B Fundamentals to Computational Intelligence',
+        description: `
+        `,
+      },
+      {
+        title: 'ECE495 Autonomous Vehicles',
+        description: `
+          `,
+      },
+    ],
+  },
+  {
+    term: '4A',
+    title: 'The finale is near',
+    description: null,
+    courses: [
+      {
+        title: 'ECE454 Distributed Computing',
+        description: `
+        `,
+      },
+      {
+        title: 'ECE458 Computer Security',
+        description: `
+          `,
+      },
+      {
+        title: 'ECE493 Reinforcement Learning and Probabilistic Reasoning',
+        description: `
+          `,
+      },
+    ],
+  },
   {
     term: '3B',
     title: 'Me and My Gang Going Full Virtual',
@@ -45,7 +84,7 @@ export const academicTerms = [
             with the first one completed individually and the other three completed in groups of three. The final lab combined
             our knowledge of MySQL as well as some basic SciKit-learn APIs to predict whether a particular baseball player
             would be in the MLB Baseball Hall-of-Fame given their play stats. Overall, the breadth of knowledge covered was great,
-            but the depth was lacking. 
+            but the depth was lacking.
           `,
       },
       {
@@ -95,7 +134,7 @@ export const academicTerms = [
     term: '2B',
     title: 'To 2B or Not 2B',
     description: `
-      Time flies by quickly. After the next co-op term, I'll be half way through the ECE program. 
+      Time flies by quickly. After the next co-op term, I'll be half way through the ECE program.
       I still have no regret about choosing ECE as both my hardware and software courses so far
       have been exciting and interesting. With most of the foundational courses cleared up, I do
       expect that the courses from here on out will be more practical, so I will be able to
@@ -125,7 +164,7 @@ export const academicTerms = [
     description: `
       It appears that I survived the infamous 2A ECE term. With 6 courses, I essentially spent half of my day
       every weekday of the week on campus in a lecture, tutorial or lab... and that's on top of completing
-      assignments, working on side projects, and preparing for co-op interviews. All in all, relaxation was mostly 
+      assignments, working on side projects, and preparing for co-op interviews. All in all, relaxation was mostly
       a weekend thing. Unfortunately, I only realized the great extent of my procrastination after midterm week,
       which saw my marks dip significantly from first year. Thankfully, I eventually caught up with the content
       after the midterm after promising myself to not leave the problem sets until final exam period.
@@ -158,9 +197,9 @@ export const academicTerms = [
       paid off as I scored 100% in that course. Meanwhile, digital logic was difficult even after completing the
       problem sets since it required covered tons of content so quickly and a lot more memorization and out-of-the-box
       critical thinking. However, the course made me approach  problems with a more "hardware" mindset; for example,
-      breaking down problems into state machines, with the consideration of transitions and assignments across various 
+      breaking down problems into state machines, with the consideration of transitions and assignments across various
       clock cycles. The difficulty of all of the other courses would somewhere between the two aforementioned courses,
-      but they were about equally as useful to me. 
+      but they were about equally as useful to me.
     `,
     courses: null,
   },

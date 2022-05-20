@@ -1,7 +1,7 @@
 import { Header, Item } from 'semantic-ui-react';
 import { PaneContainer } from '../component/PaneContainer';
 import WorkExperienceItem from './WorkExperienceItem';
-import { workExperiences as experiences } from '../data/work_experiences';
+import { workExperiences as experiences } from '../data/workExperiences';
 
 const WorkExperiencePane = () => {
   return (

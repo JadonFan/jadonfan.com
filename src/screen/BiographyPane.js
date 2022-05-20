@@ -14,21 +14,19 @@ const BiographyPane = () => {
         alt='Jadon Fan selfie'
       />
       <LargerParagraph>
-        I am Jadon Fan. I study Computer Engineering at the University of
-        Waterloo in Ontario, Canada. I am part of the graduating class of 2022
-        and currently in my fourth year of study. I am part of the University's
-        co-op program, which means that I alternate between study terms and work
-        terms every 4 months. I hope you enjoy exploring my website, which I am
-        using to gain further experience in web development.
+        I am Jadon Fan. I studied Computer Engineering at the University of
+        Waterloo and am part of the graduating class of 2022. I am part of the
+        University's co-op program, which means that I alternate between study
+        terms and work terms every 4 months. I hope you enjoy exploring my
+        website, which I am using to gain further experience in web development.
       </LargerParagraph>
       <LargerParagraph>
         I would describe myself as a determined person who loves to employ his
         problem solving skills. When I face a problem, I will put in as much
         effort as I can (eating and sleeping are still important!), and use
         whatever relevant tools I have at my disposal, to find a solution to
-        that problem. My mantra is that,
+        that problem. My mantra is that, 
         <q>
-          {' '}
           while it is important to work hard, working smart is more efficient
           and effective
         </q>

@@ -1,8 +1,41 @@
 export const workExperiences = [
   {
+    key: 'microsoft',
+    imgSrc: 'images/microsoft.jpg',
+    jobTitle: 'Software Engineer',
+    companyName: 'Microsoft',
+    location: 'Redmond',
+    dateRange: 'August 2022 – Present',
+    highlights: [],
+    techs: [],
+  },
+  {
+    key: 'wish2',
+    imgSrc: 'images/wish.jpg',
+    jobTitle: 'Software Engineering Intern',
+    companyName: 'Wish',
+    location: 'San Francisco (Remote from Toronto)',
+    dateRange: 'September 2021 – December 2021',
+    performance: 'Outstanding',
+    highlights: [
+      `
+        Implemented various Android (Kotlin) and server-side (Python) features for the Wish Clips MVP, and worked with
+        PMs and data scientists to collect user metrics and iterate on the features following the launch of the MVP
+      `,
+      `
+        Utilized Apache Airflow and Apache Hive to automate the compilation of daily user reports into HTML emails
+        for the content moderation team
+      `,
+      `
+        Wrote and reviewed design documents for migration of legacy code to an MVI architecture with Jetpack components
+      `,
+    ],
+    techs: ['Kotlin', 'Java', 'Python', 'Tornado', 'MongoDB', 'Treasure Data'],
+  },
+  {
     key: 'wish',
     imgSrc: 'images/wish.jpg',
-    jobTitle: 'Full Stack Android Developer (Intern)',
+    jobTitle: 'Software Engineering Intern',
     companyName: 'Wish',
     location: 'San Francisco (Remote from Toronto)',
     dateRange: 'January 2021 – April 2021',
@@ -26,7 +59,7 @@ export const workExperiences = [
   {
     key: 'fundthrough',
     imgSrc: 'images/fundthrough.jpg',
-    jobTitle: 'Full Stack Web Developer (Intern)',
+    jobTitle: 'Software Engineering Intern',
     companyName: 'FundThrough',
     location: 'Toronto (Remote from Toronto)',
     dateRange: 'May 2020 – August 2020',
@@ -61,7 +94,7 @@ export const workExperiences = [
   {
     key: 'yuja',
     imgSrc: 'images/yuja.jpg',
-    jobTitle: 'Full Stack Android Developer (Intern)',
+    jobTitle: 'Software Engineering Intern',
     companyName: 'YuJa',
     location: 'Toronto',
     dateRange: 'September 2019 – December 2019',
@@ -89,7 +122,7 @@ export const workExperiences = [
   {
     key: 'telushealth',
     imgSrc: 'images/telus.jpg',
-    jobTitle: 'Software Developer in Test (Intern)',
+    jobTitle: 'Software Developer in Test Intern',
     companyName: 'TELUS Health',
     location: 'Cambridge ON',
     dateRange: 'January 2019 – April 2019',
