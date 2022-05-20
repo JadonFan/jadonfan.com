@@ -28,7 +28,7 @@ export const academicTerms = [
     description: null,
     courses: [
       {
-        title: 'ECE457B Fundamentals to Computational Intelligence',
+        title: 'ECE457B Fundamentals of Computational Intelligence',
         description: `
         `,
       },
