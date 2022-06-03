@@ -1,15 +1,5 @@
 export const workExperiences = [
   {
-    key: 'microsoft',
-    imgSrc: 'images/microsoft.jpg',
-    jobTitle: 'Software Engineer',
-    companyName: 'Microsoft',
-    location: 'Redmond',
-    dateRange: 'August 2022 – Present',
-    highlights: [],
-    techs: [],
-  },
-  {
     key: 'wish2',
     imgSrc: 'images/wish.jpg',
     jobTitle: 'Software Engineering Intern',
