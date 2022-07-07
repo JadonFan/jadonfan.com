@@ -27,7 +27,7 @@ class FactCarousel extends Component {
   }
 
   handlePreviousSlide() {
-    var prevNum = this.state.factIndex - 1;
+    let prevNum = this.state.factIndex - 1;
     if (prevNum < 0) {
       prevNum = facts.length - 1;
     }
@@ -36,7 +36,7 @@ class FactCarousel extends Component {
   }
 
   handleNextSlide() {
-    var nextNum = this.state.factIndex + 1;
+    let nextNum = this.state.factIndex + 1;
     if (nextNum >= facts.length) {
       nextNum = 0;
     }
@@ -55,7 +55,7 @@ class FactCarousel extends Component {
    * @param {BigInt} idx the index corresponding to the funFacts array
    */
   createFactTrackDot(idx) {
-    var colorNotifyCurrent =
+    const colorNotifyCurrent =
       this.state.factIndex === idx
         ? { backgroundColor: 'black' }
         : { backgroundColor: '#A9A9A9' };

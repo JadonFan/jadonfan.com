@@ -20,7 +20,7 @@ export const workExperiences = [
         Wrote and reviewed design documents for migration of legacy code to an MVI architecture with Jetpack components
       `,
     ],
-    techs: ['Kotlin', 'Java', 'Python', 'Tornado', 'MongoDB', 'Treasure Data'],
+    techs: ['Kotlin', 'Java', 'Android', 'Python', 'Tornado', 'MongoDB'],
   },
   {
     key: 'wish',
@@ -44,7 +44,7 @@ export const workExperiences = [
         wiki, and improvements to our custom Android linter
       `,
     ],
-    techs: ['Kotlin', 'Java', 'Python', 'Tornado', 'MongoDB', 'Treasure Data'],
+    techs: ['Kotlin', 'Java', 'Android', 'Python', 'Tornado', 'MongoDB'],
   },
   {
     key: 'fundthrough',
@@ -74,7 +74,6 @@ export const workExperiences = [
     techs: [
       'React',
       'Redux',
-      'SCSS',
       'Ruby on Rails',
       'Rake',
       'PostgreSQL',
@@ -106,7 +105,7 @@ export const workExperiences = [
       `,
       'Migrated many of the old or deprecated libraries to newer libraries such as from SQLite to Room',
     ],
-    techs: ['Java'],
+    techs: ['Java', 'Android'],
   },
   {
     key: 'telushealth',

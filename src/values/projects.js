@@ -7,11 +7,10 @@ export const projects = [
     labels: [
       'React',
       'Redux',
+      'RTK Query',
       'Python',
       'Flask',
       'gRPC',
-      'NumPy',
-      'Pandas',
       'OpenCV',
       'PostgreSQL',
     ],
@@ -31,11 +30,10 @@ export const projects = [
     labels: [
       'React',
       'Redux',
-      'Apollo Client',
+      'Apollo',
       'Python',
       'Django',
       'Graphene',
-      'Relay',
       'PostgreSQL',
     ],
     repoUrl: 'https://github.com/Sapphire-Labs/factibly',
@@ -53,7 +51,7 @@ export const projects = [
       'Then, at the end of every week, you can obtain a summary of how much',
       "you've spent relative to your budget for that week.",
     ].join(' '),
-    labels: ['Android SDK', 'Mavericks', 'Cloud Firestore'],
+    labels: ['Kotlin', 'Android', 'Mavericks'],
     repoUrl: 'https://github.com/JadonFan/Budgeting',
   },
   {
@@ -70,7 +68,7 @@ export const projects = [
     repoUrl: 'https://github.com/JadonFan/NYTimes_Books',
   },
   {
-    title: 'EduPlan',
+    title: 'PlanIt',
     meta: 'Student Life Planner',
     description: [
       'This desktop Java app is designed by students, for students, to plan your university',
@@ -86,14 +84,14 @@ export const projects = [
     repoUrl: 'https://github.com/JadonFan/Planner',
   },
   {
-    key: 'firstgame',
-    title: 'First Game',
+    key: 'causalgames',
+    title: 'Casual Games',
     meta: 'Family-Friendly Casual Mobile Games',
     description: [
       'This Android app may seem basic, but it helped me a lot with getting',
       'started in Android development.',
     ].join(' '),
-    labels: ['Android SDK'],
+    labels: ['Java', 'Android'],
     repoUrl: 'https://github.com/JadonFan/Casual-Games',
   },
 ];

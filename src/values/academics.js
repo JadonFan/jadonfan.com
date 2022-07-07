@@ -190,7 +190,7 @@ export const academicTerms = [
     title: 'Do You Even ECE?',
     description: `
       The previous study term was more of a general engineering term. On the other hand, with mathematics
-      (both discrete and continuous), circuits, digital logic  and E&M courses all bundled into 1B, this term
+      (both discrete and continuous), circuits, digital logic and E&M courses all bundled into 1B, this term
       has clearly established itself as a more ECE-specific foundational term. I have so many opinions regarding
       each course, but I doubt anyone would want to hear my rants, so I'm going to summarize my opinions.
       I put in the most effort into circuits and felt it was easy  after doing so many problem sets. This effort
